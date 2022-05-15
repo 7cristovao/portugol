@@ -24,7 +24,8 @@ inclua biblioteca Texto --> tx
 				escreva("\nBem vindo ao Jogo da Forca!\n")
 				escreva("Jogador 1: digite uma palavra e aperte ENTER: ")
 				leia(palavra)
-		
+		                limpa()
+				
 				// Obtém o número de caracteres armazenados na variável
 				tamanho = tx.numero_caracteres(palavra) // variável palavra
 		
